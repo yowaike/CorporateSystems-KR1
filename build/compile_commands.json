@@ -1,0 +1,92 @@
+[
+{
+  "directory": "C:/maze_generator/build",
+  "command": "C:\\msys64\\mingw64\\bin\\g++.exe  @CMakeFiles/MazeGenerator.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\MazeGenerator.dir\\src\\main.cpp.obj -c C:\\maze_generator\\src\\main.cpp",
+  "file": "C:/maze_generator/src/main.cpp",
+  "output": "CMakeFiles/MazeGenerator.dir/src/main.cpp.obj"
+},
+{
+  "directory": "C:/maze_generator/build",
+  "command": "C:\\msys64\\mingw64\\bin\\g++.exe  @CMakeFiles/MazeGenerator.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\MazeGenerator.dir\\src\\maze.cpp.obj -c C:\\maze_generator\\src\\maze.cpp",
+  "file": "C:/maze_generator/src/maze.cpp",
+  "output": "CMakeFiles/MazeGenerator.dir/src/maze.cpp.obj"
+},
+{
+  "directory": "C:/maze_generator/build",
+  "command": "C:\\msys64\\mingw64\\bin\\g++.exe  @CMakeFiles/MazeGenerator.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\MazeGenerator.dir\\src\\ui.cpp.obj -c C:\\maze_generator\\src\\ui.cpp",
+  "file": "C:/maze_generator/src/ui.cpp",
+  "output": "CMakeFiles/MazeGenerator.dir/src/ui.cpp.obj"
+},
+{
+  "directory": "C:/maze_generator/build",
+  "command": "C:\\msys64\\mingw64\\bin\\g++.exe  @CMakeFiles/unit_tests.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\unit_tests.dir\\src\\maze.cpp.obj -c C:\\maze_generator\\src\\maze.cpp",
+  "file": "C:/maze_generator/src/maze.cpp",
+  "output": "CMakeFiles/unit_tests.dir/src/maze.cpp.obj"
+},
+{
+  "directory": "C:/maze_generator/build",
+  "command": "C:\\msys64\\mingw64\\bin\\g++.exe  @CMakeFiles/unit_tests.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\unit_tests.dir\\tests\\test_main.cpp.obj -c C:\\maze_generator\\tests\\test_main.cpp",
+  "file": "C:/maze_generator/tests/test_main.cpp",
+  "output": "CMakeFiles/unit_tests.dir/tests/test_main.cpp.obj"
+},
+{
+  "directory": "C:/maze_generator/build",
+  "command": "C:\\msys64\\mingw64\\bin\\g++.exe  @CMakeFiles/unit_tests.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\unit_tests.dir\\tests\\test_maze.cpp.obj -c C:\\maze_generator\\tests\\test_maze.cpp",
+  "file": "C:/maze_generator/tests/test_maze.cpp",
+  "output": "CMakeFiles/unit_tests.dir/tests/test_maze.cpp.obj"
+},
+{
+  "directory": "C:/maze_generator/build",
+  "command": "C:\\msys64\\mingw64\\bin\\g++.exe  @CMakeFiles/unit_tests.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\unit_tests.dir\\tests\\test_generators.cpp.obj -c C:\\maze_generator\\tests\\test_generators.cpp",
+  "file": "C:/maze_generator/tests/test_generators.cpp",
+  "output": "CMakeFiles/unit_tests.dir/tests/test_generators.cpp.obj"
+},
+{
+  "directory": "C:/maze_generator/build",
+  "command": "C:\\msys64\\mingw64\\bin\\g++.exe  @CMakeFiles/unit_tests.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\unit_tests.dir\\tests\\test_pathfinders.cpp.obj -c C:\\maze_generator\\tests\\test_pathfinders.cpp",
+  "file": "C:/maze_generator/tests/test_pathfinders.cpp",
+  "output": "CMakeFiles/unit_tests.dir/tests/test_pathfinders.cpp.obj"
+},
+{
+  "directory": "C:/maze_generator/build",
+  "command": "C:\\msys64\\mingw64\\bin\\g++.exe  @CMakeFiles/scenario_tests.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\scenario_tests.dir\\src\\maze.cpp.obj -c C:\\maze_generator\\src\\maze.cpp",
+  "file": "C:/maze_generator/src/maze.cpp",
+  "output": "CMakeFiles/scenario_tests.dir/src/maze.cpp.obj"
+},
+{
+  "directory": "C:/maze_generator/build",
+  "command": "C:\\msys64\\mingw64\\bin\\g++.exe  @CMakeFiles/scenario_tests.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\scenario_tests.dir\\src\\ui.cpp.obj -c C:\\maze_generator\\src\\ui.cpp",
+  "file": "C:/maze_generator/src/ui.cpp",
+  "output": "CMakeFiles/scenario_tests.dir/src/ui.cpp.obj"
+},
+{
+  "directory": "C:/maze_generator/build",
+  "command": "C:\\msys64\\mingw64\\bin\\g++.exe  @CMakeFiles/scenario_tests.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\scenario_tests.dir\\tests\\test_scenarios.cpp.obj -c C:\\maze_generator\\tests\\test_scenarios.cpp",
+  "file": "C:/maze_generator/tests/test_scenarios.cpp",
+  "output": "CMakeFiles/scenario_tests.dir/tests/test_scenarios.cpp.obj"
+},
+{
+  "directory": "C:/maze_generator/build/_deps/googletest-build/googlemock",
+  "command": "C:\\msys64\\mingw64\\bin\\g++.exe  @CMakeFiles/gmock.dir/includes_CXX.rsp -g -std=c++17 -Wall -Wshadow -Wundef -Wno-error=dangling-else -DGTEST_HAS_PTHREAD=0 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -o CMakeFiles\\gmock.dir\\src\\gmock-all.cc.obj -c C:\\maze_generator\\build\\_deps\\googletest-src\\googlemock\\src\\gmock-all.cc",
+  "file": "C:/maze_generator/build/_deps/googletest-src/googlemock/src/gmock-all.cc",
+  "output": "_deps/googletest-build/googlemock/CMakeFiles/gmock.dir/src/gmock-all.cc.obj"
+},
+{
+  "directory": "C:/maze_generator/build/_deps/googletest-build/googlemock",
+  "command": "C:\\msys64\\mingw64\\bin\\g++.exe  @CMakeFiles/gmock_main.dir/includes_CXX.rsp -g -std=c++17 -Wall -Wshadow -Wundef -Wno-error=dangling-else -DGTEST_HAS_PTHREAD=0 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -o CMakeFiles\\gmock_main.dir\\src\\gmock_main.cc.obj -c C:\\maze_generator\\build\\_deps\\googletest-src\\googlemock\\src\\gmock_main.cc",
+  "file": "C:/maze_generator/build/_deps/googletest-src/googlemock/src/gmock_main.cc",
+  "output": "_deps/googletest-build/googlemock/CMakeFiles/gmock_main.dir/src/gmock_main.cc.obj"
+},
+{
+  "directory": "C:/maze_generator/build/_deps/googletest-build/googletest",
+  "command": "C:\\msys64\\mingw64\\bin\\g++.exe  @CMakeFiles/gtest.dir/includes_CXX.rsp -g -std=c++17 -Wall -Wshadow -Wundef -Wno-error=dangling-else -DGTEST_HAS_PTHREAD=0 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -o CMakeFiles\\gtest.dir\\src\\gtest-all.cc.obj -c C:\\maze_generator\\build\\_deps\\googletest-src\\googletest\\src\\gtest-all.cc",
+  "file": "C:/maze_generator/build/_deps/googletest-src/googletest/src/gtest-all.cc",
+  "output": "_deps/googletest-build/googletest/CMakeFiles/gtest.dir/src/gtest-all.cc.obj"
+},
+{
+  "directory": "C:/maze_generator/build/_deps/googletest-build/googletest",
+  "command": "C:\\msys64\\mingw64\\bin\\g++.exe  @CMakeFiles/gtest_main.dir/includes_CXX.rsp -g -std=c++17 -Wall -Wshadow -Wundef -Wno-error=dangling-else -DGTEST_HAS_PTHREAD=0 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -o CMakeFiles\\gtest_main.dir\\src\\gtest_main.cc.obj -c C:\\maze_generator\\build\\_deps\\googletest-src\\googletest\\src\\gtest_main.cc",
+  "file": "C:/maze_generator/build/_deps/googletest-src/googletest/src/gtest_main.cc",
+  "output": "_deps/googletest-build/googletest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.obj"
+}
+]
