@@ -10,7 +10,7 @@ cd C:\maze_generator
 cmake --build build
 .\build\MazeGenerator.exe
 .\build\unit_tests.exe
-.\build\scenario_tests.exe
+cmd /c "chcp 65001 > nul && .\build\scenario_tests.exe"
 
 # Основная программа
 docker-compose run --rm maze-app
