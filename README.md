@@ -22,48 +22,35 @@
 ## Сборка и запуск (локально)
 
 ```bash
-# Клонирование
 git clone https://github.com/yowaike/CorporateSystems-KR1.git
 cd CorporateSystems-KR1
-
-# Конфигурация и сборка
 cmake -S . -B build -DCMAKE_BUILD_TYPE=Release
 cmake --build build
-
-# Запуск основной программы
-./build/MazeGenerator        # Linux/Mac
-.\build\MazeGenerator.exe    # Windows
-
-# Запуск unit-тестов (Google Test)
-./build/unit_tests           
-.\build\unit_tests.exe       
-
-# Запуск тестовых сценариев
-./build/scenario_tests       
-.\build\scenario_tests.exe   
+./build/MazeGenerator
+./build/unit_tests
+./build/scenario_tests
+```
 
 ## Сборка и запуск через Docker
 
-# Собрать образ
+```bash
 docker build -t maze-generator .
-
-# Основная программа (интерактивный режим)
 docker run -it --rm maze-generator ./MazeGenerator
-
-# Unit-тесты
 docker run --rm maze-generator ./unit_tests
-
-# Тестовые сценарии
 docker run --rm maze-generator ./scenario_tests
+```
 
 ## Запуск через Docker Compose
 
-docker-compose run --rm maze-app        # Основная программа
-docker-compose run --rm maze-tests      # Unit-тесты
-docker-compose run --rm maze-scenarios  # Тестовые сценарии
+```bash
+docker-compose run --rm maze-app
+docker-compose run --rm maze-tests
+docker-compose run --rm maze-scenarios
+```
 
 ## Структура проекта
 
+```
 ├── include/          # Заголовочные файлы
 │   └── maze.h
 ├── src/              # Исходный код
@@ -79,6 +66,7 @@ docker-compose run --rm maze-scenarios  # Тестовые сценарии
 ├── CMakeLists.txt    # Сценарий сборки
 ├── Dockerfile        # Сборка Docker-образа
 └── README.md
+```
 
 ## Отчёт
 
